@@ -6,6 +6,7 @@ pipeline {
         stage('PRINT') {
             steps {
                 sh 'echo $JOB_NAME'
+                echo 'hello'
             }
         }
         stage('WRITE') {
